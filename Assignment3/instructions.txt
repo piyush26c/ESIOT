@@ -1,0 +1,19 @@
+sudo apt-get install minicom
+1] connect beagalbone
+        sudo su
+        Enter system password.
+2] $minicom -s
+3]serial port setup : A-> ttyACM0
+  save setup as dfl
+  exit
+  
+4] Now we have entered into the beagalbone black.
+5] enter beagalbone password and username.
+6] to make new file : $vi file_name
+7] to edit new file press insert.
+8] to save the this file press Esc key two times.
+9] insert command:-   :wq
+10] file gets saved and you can run the file using beagalbone black
+
+
+11] to disconnect beagalbone: sudo shutdown -h now
